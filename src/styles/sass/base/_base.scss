@@ -1,0 +1,120 @@
+body{
+  overflow-x: hidden;
+  line-height: 1.8;
+ 
+}
+html{
+  overflow-x: hidden;
+  font-size: 62.5%;
+
+  @include responsive(phone) {
+
+  }
+  @include responsive(tab-port) {
+    font-size: 50%;
+  }
+  @include responsive(tab-land) {
+    font-size: 56.25%;
+  }
+  @include responsive(desktop) {
+    font-size: 75%;
+  }
+
+}
+
+a{
+  font-size: 1.5rem;
+}
+  
+
+h1,h2,h3,h5,h6{
+
+  color:$color-grey-light;
+  line-height: 1.8;
+}
+h4{
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 1.4;
+}
+p{
+  color: rgba(255, 255, 255, 0.705);
+  max-width: 45rem;
+
+}
+
+img{
+width: 100%;
+}
+.section-title{
+  h1{
+    color:$color-grey-light;
+    line-height: 1.8;
+    font-size: 3.5rem;
+  }
+  h2{
+    color:$color-grey-light;
+    line-height: 1.8;
+    font-size: 3rem;
+  }
+  
+  h6{
+
+    color:$color-grey-light;
+    line-height: 1.8;
+    font-size: 1.6rem;
+  }
+  h4{
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 1.4;
+  }
+  p{
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 1.8rem;
+    max-width: 66rem;
+    margin: auto;
+  
+  }
+}
+
+.heading-secendary{
+  color: $color-black;
+}
+
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: linear-gradient(to bottom left,#f2f2f2eb,#9b9b9b94);
+  opacity: .9;
+  z-index: -8;
+}
+
+
+.title-border{
+  position: relative;
+  &::before, &::after{
+    position: absolute;
+    content: "";
+    height: 4px;
+    bottom: 1px;
+    margin: auto;
+    left:  0px;
+    right:  0px;
+  }
+  &::before{
+    width: 150px;
+    background: rgba(128, 128, 128, 0.753);
+  }
+  &::after{
+    width: 90px;
+    background: $color-purple;
+    box-shadow: 0 2rem 4rem rgba($color-black, .2)
+  }
+}
+
+
+

@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="styles/css/global.min.css" />
+    <link rel="stylesheet" href="http://www.jqueryscript.net/css/jquerysctipttop.css" />
     <link rel="stylesheet" href="styles/css/index.min.css" />
 
 </head>
@@ -21,7 +22,7 @@
 
     <section class="homepage">
         <div class="container">
-            <div class="homepage-topbar pb-5">
+            <div class="homepage-topbar">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand" href="#">
                         <img src="images/Logo_Ui_Lib.png" alt="">
@@ -31,37 +32,37 @@
                     </button>
                   
                     <div class="collapse main_menu_wrap navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                      <ul class="navigation__list navbar-nav mr-auto">
+                        <li class="navigation__item">
+                          <a class="navigation__link" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#service">service</a>
+                        <li class="navigation__item">
+                          <a class="navigation__link" href="#service">service</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#about">about us</a>
+                        <li class="navigation__item">
+                          <a class="navigation__link" href="#about">about us</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#work">work</a>
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="#work">work</a>
                           </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#price">price</a>
+                          <li class="navigation__item">
+                            <a class="navigation__link" href="#price">price</a>
                           </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#blog">blog</a>
+                          <li class="navigation__item">
+                            <a class="navigation__link" href="#blog">blog</a>
                           </li>
                       </ul>
-                      <form class="form-inline my-2 my-lg-0">
-                        <button class="btn btn-regular my-2 my-sm-0" type="submit">hire us</button>
-                      </form>
                     </div>
-                  </nav>
+                    <form class="form-inline my-2 my-lg-0">
+                        <button class="btn btn-regular my-2 my-sm-0" type="submit">hire us</button>
+                    </form>
+                </nav>
             </div>
-            <div class="homepage-main-content mt-5 text-center pt-5 pb-5" id="home">
-                <h2>we make the web beautiful to <br> grow your business</h2> <br>
+            <div class="homepage-main-content" id="home">
+                <h2>we make the web beautiful to <br> grow your business</h2> 
                 <p> welcome to themegret. <br>
-                we want to make you and your aduiences feel awasome in web</p> <br> <br>
-                <button class="btn btn-purple active mr-4">
+                we want to make you and your aduiences feel awasome in web</p> <br>
+                <button class="btn btn-regular mr-4">
                     request a quote
                 </button>
                 <button class="btn btn-regular">
@@ -69,132 +70,255 @@
                 </button>
             </div>
         </div>
-    </section>
-
-    <!-- our services -->
-
-    <section class="our-service pt-5 pb-5" id="service">
-        <div class="container">
-            <div class="service-title text-center mr-auto pt-4">
-                <h2 class="text-dark title-border pb-5">
-                    our services
-                </h2> <br>
-                <p class="text-muted pt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius est esse hic cum doloremque corporis?</p>
-            </div>
-            <div class="row pt-5">
-                <div class="col-md-4 col-lg-4 col-12">
-                    <div class="service pt-5 p-2">
-                        <div class="service-icon">
-                            <i class="far fa-newspaper"></i>
-                        </div> <br>
-                        <div class="service-detail">
-                            <h6 class="text-dark">web design</h6>
-                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis sint facilis error doloremque, ullam mollitia.</p>                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-12">
-                    <div class="service pt-5 p-2">
-                        <div class="service-icon">
-                            <i class="far fa-newspaper"></i>
-                        </div> <br>
-                        <div class="service-detail">
-                            <h6 class="text-dark">web design</h6>
-                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis sint facilis error doloremque, ullam mollitia.</p>                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-12">
-                    <div class="service pt-5 p-2">
-                        <div class="service-icon">
-                            <i class="far fa-newspaper"></i>
-                        </div> <br>
-                        <div class="service-detail">
-                            <h6 class="text-dark">web design</h6>
-                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis sint facilis error doloremque, ullam mollitia.</p>                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-12">
-                    <div class="service pt-5 p-2">
-                        <div class="service-icon">
-                            <i class="far fa-newspaper"></i>
-                        </div> <br>
-                        <div class="service-detail">
-                            <h6 class="text-dark">web design</h6>
-                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis sint facilis error doloremque, ullam mollitia.</p>                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-12">
-                    <div class="service pt-5 p-2">
-                        <div class="service-icon">
-                            <i class="far fa-newspaper"></i>
-                        </div> <br>
-                        <div class="service-detail">
-                            <h6 class="text-dark">web design</h6>
-                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis sint facilis error doloremque, ullam mollitia.</p>                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-12">
-                    <div class="service pt-5 p-2">
-                        <div class="service-icon">
-                            <i class="far fa-images"></i>
-                        </div> <br>
-                        <div class="service-detail">
-                            <h6 class="text-dark">web design</h6>
-                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis sint facilis error doloremque, ullam mollitia.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <svg width="100%" height="40%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="wave">
+            <title> <a href="https://www.jqueryscript.net/animation/"></a></title>
+            <defs></defs>
+            <path id="demo" d="">
+        </svg>
     </section>
 
     <!-- about us -->
 
-    <section class="about pt-5 pb-5" id="about">
+    <section class="about" id="about">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 col-lg-6 col-12">
-                    <div class="about-us pt-5 ml-5 pl-5 pb-5">
-                        <h5>about us</h5>
-                        <h2>things to know about us</h2>
+                    <div class="about__detail">
+                        <h2>things to know about us</h2> <br><br>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque recusandae veniam quaerat tenetur qui. <br> <br> Repellendus suscipit ea impedit at placeat alias quae explicabo rem? Laudantium minus provident sequi molestias est assumenda tempore sunt neque ipsam aliquid error magnam, at ratione in veniam labore et incidunt eum nesciunt quo. Voluptatum rerum ea beatae perferendis dolores delectus?
                         </p> <br>
-                        <button class="btn btn-purple">
+                        <button class="btn btn-blue">
                             hire us
                         </button>
                      </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-12">
-                    <div class="about-photo pt-5">
-                         <img src="images/About_Us.png" alt="">
+                    <div class="composition">
+                         <img src="images/About_Us1.png" alt="photo-1" class="composition__photo composition__photo--p1" >
+                         <img src="images/About_Us2.png" alt="photo-2" class="composition__photo composition__photo--p2" >
+                         <img src="images/About_Us1.png" alt="photo-3" class="composition__photo composition__photo--p3" >
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- our work -->
-
-    <section class="our-work pt-5 pb-5" id="work">
-        <div class="container">
-            <div class="work-title text-center mr-auto pb-5">
-                <h2 class="text-dark title-border pb-5">our recent work</h2>
-                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sapiente iusto recusandae consectetur perspiciatis quaerat!</p>
+       <!-- features -->
+       <section class="feature-page1">
+            <div class="container features">
+                <div class="section-title text-center">
+                    <h2>Working is a pleasure</h2>
+                    <p>This is the paragraph where you can write more details about your product. Keep you user engaged by providing
+                        meaningful information.</p>
+                </div>
+                <div class="row feature-page1-content">
+                    <div class="col-md-8">
+                        <div class="feature-content">
+                            <div class="feature-icon">
+                                <i class="fab fa-html5" ></i>
+                            </div>
+                            <div class="feature-detail">
+                                <h4>For Developers</h4>
+                                <p>The moment you use Now UI Kit, you know you’ve never felt anything like it. With a single use,
+                                    this powerfull UI Kit lets you do more than ever before.</p>
+                            </div>
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <div class="feature-detail">
+                                <h4> For Designers</h4>
+                                <p>The moment you use Now UI Kit, you know you’ve never felt anything like it. With a single use,
+                                    this powerfull UI Kit lets you do more than ever before.</p>
+                            </div>
+                        </div>
+                        <div class="feature-content">
+                            <div class="feature-icon">
+                                <i class="fas fa-sync-alt" ></i>
+                            </div>
+                            <div class="feature-detail">
+                                <h4>For Artists</h4>
+                                <p>The moment you use Now UI Kit, you know you’ve never felt anything like it. With a single use,
+                                    this powerfull UI Kit lets you do more than ever before.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 feature-photo">
+                        <img src="images/ipad3.png" alt="">
+                    </div>
+                </div>
             </div>
-            <div class="row pt-5 pb-5">
-                <div class="col-md-4">
-                    <div class="work-image">
-                        <img src="images/Work_1.png" alt="">
+        </section>
+
+            <!-- project page 1 -->
+    <section class="projectpage1" id="project">
+        <div class="container">
+            <div class="project1-title text-center">
+                <h2>Our Awesome Products</h2>
+            </div>
+            <div class="project1-menu text-center">
+                <ul>
+                    <li class="active" data-filter="*">All</li>
+                    <li data-filter=".history">History</li>
+                    <li data-filter=".fiction">Fiction</li>
+                    <li data-filter=".Satire">satire</li>
+                </ul>
+            </div>
+            <div class="project1-item">
+                <div class="item history">
+                    <div class="overlay">
+
+                    </div>
+                    <div class="item-detail">
+                        <h6>History</h6>
+                        <h3>The City Lost & Found</h3>
+                        <p>Developed on the occasion of an exhibition of the same name, The City Lost & Found: Capturing New
+                            York...
+                        </p>
+                        <a href="#popup" class="btn btn-blue">
+                            <span class="icon">
+                                <i class="fas fa-share-square"></i>
+                            </span> view more
+                        </a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="work-image">
-                        <img src="images/Work_2.png" alt="">
+                <div class="item Satire">
+                    <div class="overlay">
+
+                    </div>
+                    <div class="item-detail">
+                        <h6>Satire</h6>
+                        <h3>A Confederacy of Dunces</h3>
+                        <p>Developed on the occasion of an exhibition of the same name, The City Lost & Found: Capturing New
+                            York...
+                        </p>
+                        <a href="#popup" class="btn btn-blue">
+                            <span class="icon">
+                                <i class="fas fa-share-square"></i>
+                            </span> view more
+                        </a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="work-image">
-                        <img src="images/Work_3.png" alt="">
+                <div class="item fiction">
+                    <div class="overlay">
+
+                    </div>
+                    <div class="item-detail">
+                        <h6>Fiction</h6>
+                        <h3>The Sun Also Rises</h3>
+                        <p>Developed on the occasion of an exhibition of the same name, The City Lost & Found: Capturing New
+                            York...
+                        </p>
+                        <a href="#popup" class="btn btn-blue">
+                            <span class="icon">
+                                <i class="fas fa-share-square"></i>
+                            </span> view more
+                        </a>
+                    </div>
+                </div>
+                <div class="item Basic-Civitas">
+                    <div class="overlay">
+
+                    </div>
+                    <div class="item-detail">
+                        <h6>Basic Civitas</h6>
+                        <h3>The Right Mistake</h3>
+                        <p>Developed on the occasion of an exhibition of the same name, The City Lost & Found: Capturing New
+                            York...
+                        </p>
+                        <a href="#popup" class="btn btn-blue">
+                            <span class="icon">
+                                <i class="fas fa-share-square"></i>
+                            </span> view more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- the executive team page  -->
+    <section class="team">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Our Team </h2>
+                <p>This is the paragraph where you can write more details about your team. Keep you user engaged by providing
+                    meaningful information.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 team-member">
+                    <img src="images/team1.jpg" alt="">
+                    <div class="team-member-detail">
+                        <h4>Sofia Scarlett</h4>
+                        <p>font-end developer</p>
+                        <ul>
+                            <li>
+                                <a class="bg-facebook" href="*">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="bg-twitter" href="*">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="bg-google-plus" href="*">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 team-member middle">
+                    <img src="images/team2.jpg" alt="">
+                    <div class="team-member-detail">
+                        <h4>tomy shalby</h4>
+                        <p>java script expert</p>
+                        <ul>
+                            <li>
+                                <a class="bg-facebook" href="*">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="bg-twitter" href="*">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="bg-google-plus" href="*">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 team-member">
+                    <img src="images/team2-profile1.jpg" alt="">
+                    <div class="team-member-detail">
+                        <h4>angelika hopman</h4>
+                        <p>php expert</p>
+                        <ul>
+                            <li>
+                                <a class="bg-facebook" href="*">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="bg-twitter" href="*">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="bg-google-plus" href="*">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -253,157 +377,125 @@
         </div>
     </section>
 
+       <!-- pricing -->
 
-
-
-    <!-- blogpost -->
-
-    <section class="blogpost pt-5 pb-5" id="blog">
-        <div class="container">
-            <div class="blog-title text-center mr-auto">
-                 <h2 class="text-dark title-border pb-5">our blog</h2>
-                 <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus hic animi laudantium excepturi cupiditate deleniti?</p>
-            </div>
-            <div class="row pt-5 pb-5">
-                <div class="col-md-4 col-lg-4 col-12">
-                    <div class="card blog-card">
-                        <div class="blog-photo">
-                            <img src="images/Blog_Post.png" alt="">
-                        </div>
-                        <div class="blog-detail pl-4 pb-4 pt-4">
-                            <h4 class="text-dark">6 best premium angular admin template</h4>
-                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, quas voluptate?</p> <br>
-                            <a class="text-dark" href="*">read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-12">
-                    <div class="card blog-card">
-                        <div class="blog-photo">
-                            <img src="images/Blog_Post.png" alt="">
-                        </div>
-                        <div class="blog-detail pl-4 pb-4 pt-4">
-                            <h4 class="text-dark">6 best premium angular admin template</h4> 
-                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, quas voluptate?</p> <br>
-                            <a class="text-dark" href="*">read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-12">
-                    <div class="card blog-card">
-                        <div class="blog-photo">
-                            <img src="images/Blog_Post.png" alt="">
-                        </div>
-                        <div class="blog-detail pl-4 pb-4 pt-4">
-                            <h4 class="text-dark">6 best premium angular admin template</h4> 
-                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, quas voluptate?</p> <br>
-                            <a class="text-dark" href="*">read more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- pricing -->
-
-    <section class="pricing pt-5 pb-5" id="price">
-        <div class="container">
+       <section class="pricing">
+        <div class="container pricing-content">
             <div class="pricing-title text-center">
-                <h2 class="text-dark title-border pb-5">pricing</h2> <br>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam deserunt recusandae doloribus dignissimos aliquid possimus!</p>
+                <h2>Pick the best plan for you</h2>
+                <p>You have Free Unlimited Updates and Premium Support on each package.</p>
             </div>
-            <div class="row pt-5 pb-5">
-                <div class="col-md-4 col-lg-4 col-12 pt-5">
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-6 col-12">
                     <div class="card">
-                        <div class="pricing-card pb-5">
-                            <h6 class="bg-purple">basic</h6>
-                            <p class="text-center text-dark"> <strong>free</strong> </p>
-                            <ul class="pt-5 pb-5">
-                                <li class="text-muted text-capitalize">
-                                    <i class="far fa-check-circle"></i> <span class="ml-3">simply dummy text of the printing</span>
-                                </li>
-                                <li class="text-muted text-capitalize">
-                                    <i class="far fa-check-circle"></i> <span class="ml-3"> dolor sit amet adipisicing.</span>
-                                </li>
-                                <li class="text-muted text-capitalize">
-                                    <i class="far fa-check-circle"></i> <span class="ml-3">Lorem ipsum sit amet consectetur.</span>
-                                </li>
-                                <li class="text-muted text-capitalize">
-                                    <i class="far fa-check-circle"></i> <span class="ml-3">ipsum amet consectetur adipisicing.</span>
-                                </li>
-                                <li class="text-muted text-capitalize">
-                                    <i class="far fa-check-circle"></i> <span class="ml-3">Lorem consectetur adipisicing elit.</span>
-                                </li>
+                        <div class="card__side card__side--front">
+                            <h6>Bravo Pack</h6>
+                            <i class="fas fa-power-off" style="color:rgba(255, 0, 0, 0.582)"></i>
+                            <h4>$15</h4>
+                            <h5>Complete documentation</h5>
+                            <p>Working materials in Sketch</p>
+                            <button class="btn btn-card">
+                                Add to cart
+                            </button>
+                        </div>
+                        <div class="card__side card__side--back">
+                            <h6>bravo Pack</h6>
+                            <ul class="pack__list">
+                                <li> <strong>10GB</strong> Disk Space</li>
+                                <li>  <strong>100GB</strong> Monthly Bandwidth</li>
+                                <li>  <strong>20</strong> Email Accounts</li>
+                                <li>  <strong>Unlimited</strong> subdomains</li>
+                                <li>  online marketing</li>
+                                <li class="muted">  <strong>24/7</strong> service</li>
                             </ul>
                             <button class="btn btn-card">
-                                select
+                                Add to cart
                             </button>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4 col-12 pt-5">
+                <div class="col-md-3 col-sm-6 col-12">
                     <div class="card">
-                        <div class="pricing-card pb-5">
-                            <h6 class="bg-purple">standard</h6>
-                            <p class="text-center text-dark"> <strong>$175</strong> per month</p>
-                            <ul class="pt-5 pb-5">
-                                <li class="text-muted text-capitalize">
-                                    <i class="far fa-check-circle"></i> <span class="ml-3">simply dummy text of the printing</span>
-                                </li>
-                                <li class="text-muted text-capitalize">
-                                    <i class="far fa-check-circle"></i> <span class="ml-3"> dolor sit amet adipisicing.</span>
-                                </li>
-                                <li class="text-muted text-capitalize">
-                                    <i class="far fa-check-circle"></i> <span class="ml-3">Lorem ipsum sit amet consectetur.</span>
-                                </li>
-                                <li class="text-muted text-capitalize">
-                                    <i class="far fa-check-circle"></i> <span class="ml-3">ipsum amet consectetur adipisicing.</span>
-                                </li>
-                                <li class="text-muted text-capitalize">
-                                    <i class="far fa-check-circle"></i> <span class="ml-3">Lorem consectetur adipisicing elit.</span>
-                                </li>
-                                <li class="text-muted text-capitalize">
-                                    <i class="far fa-check-circle"></i> <span class="ml-3">Lorem consectetur adipisicing elit.</span>
-                                </li>
+                        <div class="card__side card__side--front">
+                            <h6>alpha Pack</h6>
+                            <i class="fas fa-power-off" style="color:rgba(255, 0, 0, 0.582)"></i>
+                            <h4>$15</h4>
+                            <h5>Complete documentation</h5>
+                            <p>Working materials in Sketch</p>
+                            <button class="btn btn-card">
+                                Add to cart
+                            </button>
+                        </div>
+                        <div class="card__side card__side--back">
+                            <h6>alpha Pack</h6>
+                        
+                            <ul class="pack__list">
+                                <li> <strong>10GB</strong> Disk Space</li>
+                                <li>  <strong>100GB</strong> Monthly Bandwidth</li>
+                                <li>  <strong>20</strong> Email Accounts</li>
+                                <li>  <strong>Unlimited</strong> subdomains</li>
+                                <li>  online marketing</li>
+                                <li>  <strong>24/7</strong> service</li>
                             </ul>
                             <button class="btn btn-card">
-                                select
+                                Add to cart
                             </button>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4 col-12 pt-5">
+                <div class="col-md-3 col-sm-6 col-12">
                     <div class="card">
-                        <div class="pricing-card pb-5">
-                            <h6 class="bg-purple">premium</h6>
-                            <p class="text-center text-dark"> <strong>$175</strong> per month</p>
-                            <ul class="pt-5 pb-5">
-                                <li class="text-muted text-capitalize">
-                                    <i class="far fa-check-circle"></i> <span class="ml-3">simply dummy text of the printing</span>
-                                </li>
-                                <li class="text-muted text-capitalize">
-                                    <i class="far fa-check-circle"></i> <span class="ml-3"> dolor sit amet adipisicing.</span>
-                                </li>
-                                <li class="text-muted text-capitalize">
-                                    <i class="far fa-check-circle"></i> <span class="ml-3">Lorem ipsum sit amet consectetur.</span>
-                                </li>
-                                <li class="text-muted text-capitalize">
-                                    <i class="far fa-check-circle"></i> <span class="ml-3">ipsum amet consectetur adipisicing.</span>
-                                </li>
-                                <li class="text-muted text-capitalize">
-                                    <i class="far fa-check-circle"></i> <span class="ml-3">Lorem consectetur adipisicing elit.</span>
-                                </li>
-                                <li class="text-muted text-capitalize">
-                                    <i class="far fa-check-circle"></i> <span class="ml-3">Lorem consectetur adipisicing elit.</span>
-                                </li>
-                                <li class="text-muted text-capitalize">
-                                    <i class="far fa-check-circle"></i> <span class="ml-3">Lorem consectetur adipisicing elit.</span>
-                                </li>
+                        <div class="card__side card__side--front">
+                            <h6>Bravo Pack</h6>
+                            <i class="fas fa-power-off" style="color:rgba(255, 0, 0, 0.582)"></i>
+                            <h4>$15</h4>
+                            <h5>Complete documentation</h5>
+                            <p>Working materials in Sketch</p>
+                            <button class="btn btn-card">
+                                Add to cart
+                            </button>
+                        </div>
+                        <div class="card__side card__side--back">
+                            <h6>alpha Pack</h6>
+                          
+                            <ul class="pack__list">
+                                <li> <strong>10GB</strong> Disk Space</li>
+                                <li>  <strong>100GB</strong> Monthly Bandwidth</li>
+                                <li>  <strong>20</strong> Email Accounts</li>
+                                <li>  <strong>Unlimited</strong> subdomains</li>
+                                <li>  online marketing</li>
+                                <li>  <strong>24/7</strong> service</li>
                             </ul>
                             <button class="btn btn-card">
-                                select
+                                Add to cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <h6>Bravo Pack</h6>
+                            <i class="fas fa-power-off" style="color:rgba(255, 0, 0, 0.582)"></i>
+                            <h4>$15</h4>
+                            <h5>Complete documentation</h5>
+                            <p>Working materials in Sketch</p>
+                            <button class="btn btn-card">
+                                Add to cart
+                            </button>
+                        </div>
+                        <div class="card__side card__side--back">
+                            <h6>bravo</h6>
+                           
+                            <ul class="pack__list">
+                                <li> <strong>10GB</strong> Disk Space</li>
+                                <li>  <strong>100GB</strong> Monthly Bandwidth</li>
+                                <li>  <strong>20</strong> Email Accounts</li>
+                                <li>  online marketing</li>
+                                <li>  <strong>24/7</strong> service</li>
+                            </ul>
+                            <button class="btn btn-card">
+                                Add to cart
                             </button>
                         </div>
                     </div>
@@ -413,81 +505,239 @@
     </section>
 
 
-    <!-- contact-us -->
 
-    <section class="contact pt-5 pb-5" id="contact">
-        <div class="container pt-5">
-            <div class="contact-title text-center pt-5 pb-5 ">
-                <h2 class="title-border pb-5">contact us</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione reiciendis delectus iure minima necessitatibus mollitia aut?</p>
-            </div>
-            <div class="row pt-5 pb-2">
-                <div class="col-md-4 col-lg-4 col-12">
-                    <div class="contact-input">
-                        <input type="text" placeholder="name">
+
+
+    <!-- blog post page 4 -->
+
+
+
+    <section class="blog-page4">
+            <div class="container">
+                <div class="blog-page4-title">
+                    <h2>Latest Blogposts </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 blog-post">
+                        <div class="post4">
+                            <div class="post4-photo">
+                                <img src="images/card-blog2.jpg" alt="">
+                            </div>
+                            <div class="post4-detail">
+                                <h6>Features</h6>
+                                <h4> <a href="#">That’s One Way To Ditch Your Passenger</a></h4>
+                                <p>As near as we can tell, this guy must have thought he was going over backwards and tapped the
+                                    rear...</p>
+                            </div>
+                            <div class="row pb-4">
+                                <div class="col-md-6">
+                                    <div class="post4-author">
+                                        <img src="images/julie.jpg" alt="">
+                                        <p>Mike John</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="post4-view">
+                                        <i class="fas fa-stopwatch"></i>
+                                        <p> 5 min read</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 blog-post">
+                        <div class="post4">
+                            <div class="post4-photo">
+                                <img src="images/card-blog18.jpg" alt="">
+                            </div>
+                            <div class="post4-detail">
+                                <h6>Animals</h6>
+                                <h4> <a href="#">That’s One Way To Ditch Your Passenger</a> </h4>
+                                <p>As near as we can tell, this guy must have thought he was going over backwards and tapped the
+                                    rear...</p>
+                            </div>
+                            <div class="row pb-4">
+                                <div class="col-md-6">
+                                    <div class="post4-author">
+                                        <img src="images/julie.jpg" alt="">
+                                        <p>Mike John</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="post4-view">
+                                        <i class="fas fa-stopwatch"></i>
+                                        <p> 5 min read</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 blog-post">
+                        <div class="post4">
+                            <div class="post4-photo">
+                                <img src="images/card-blog17.jpg" alt="">
+                            </div>
+                            <div class="post4-detail">
+                                <h6>Cars</h6>
+                                <h4> <a href="#">That’s One Way To Ditch Your Passenger</a> </h4>
+                                <p>As near as we can tell, this guy must have thought he was going over backwards and tapped the
+                                    rear...</p>
+                            </div>
+                            <div class="row pb-4">
+                                <div class="col-md-6">
+                                    <div class="post4-author">
+                                        <img src="images/julie.jpg" alt="">
+                                        <p>Mike John</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="post4-view">
+                                        <i class="far fa-heart" style="color:red;"></i>
+                                        <p>2.4K 5min</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4 col-12">
-                    <div class="contact-input">
-                        <input type="email" placeholder="email">
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-12">
-                    <div class="contact-input">
-                        <input type="text" placeholder="subject">
-                    </div>
-                </div>
             </div>
-            <div class="row">
-                <div class="message col-md-12 col-lg-12 col-12 pt-4 pb-5">
-                    <textarea name="" id="" cols="131" rows="5" placeholder="type here"></textarea> <br> <br>
-                    <button class="btn btn-purple">
-                        send message
-                    </button>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+
+
+ 
+  
     <!-- footer -->
-    <section class="footer border-top">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#">
-                    <img src="images/Logo_Ui_Lib.png" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse main_menu_wrap navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                      <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#service">service</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#about">about us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#work">work</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#price">price</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#blog">blog</a>
-                      </li>
-                  </ul>
-                  <div class="form-inline my-2 my-lg-0">
-                  <p class="pt-3">@copyright anjanray 2018</p>
-                  </div>
-
+    <section class="footer-page2">
+            <div class="container">
+                <div class="row footer-page2-content">
+                    <div class="col-md-3 col-sm-4">
+                        <div class="ui-kit">
+                            <h4>
+                                <a href="*">UI Lib Ui Kit PRO</a>
+                            </h4>
+                            <p>Probably the best UI Kit in the world! We know you've been waiting for it, so don't be shy!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4">
+                        <div class="footer2-about">
+                            <h5>About Us</h5>
+                            <ul>
+                                <li>
+                                    <a href="*">blog</a>
+                                </li>
+                                <li>
+                                    <a href="*">about us</a>
+                                </li>
+                                <li>
+                                    <a href="*">presentation</a>
+                                </li>
+                                <li>
+                                    <a href="*">contact us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4">
+                        <div class="footer2-about">
+                            <h5>Market</h5>
+                            <ul>
+                                <li>
+                                    <a href="*">sales faq</a>
+                                </li>
+                                <li>
+                                    <a href="*">how to register</a>
+                                </li>
+                                <li>
+                                    <a href="*">sell goods</a>
+                                </li>
+                                <li>
+                                    <a href="*">recive payment</a>
+                                </li>
+                                <li>
+                                    <a href="*">transection issues</a>
+                                </li>
+                                <li>
+                                    <a href="*">affiliates program</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4">
+                        <div class="footer2-about">
+                            <h5>legal</h5>
+                            <ul>
+                                <li>
+                                    <a href="*">Transsection FAQ</a>
+                                </li>
+                                <li>
+                                    <a href="*">Terms & conditions</a>
+                                </li>
+                                <li>
+                                    <a href="*">Licences</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-8">
+                        <div class="subscribe">
+                            <h4>Subscribe to Newsletter</h4>
+                            <p>Join our newsletter and get news in your inbox every week! We hate spam too, so no worries about
+                                this.</p>
+                            <form class="subscribe-form" action="">
+                                <input type="email" name="" id="" placeholder="your email">
+                                <button type="button" class="btn msg-btn" name="button">
+                                    <i class="far fa-envelope"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
-              </nav>
+                <div class="footer2-author text-center">
+                    <ul>
+                        <li>
+                            <i class="fab fa-facebook-f" style="color: #3b5998;"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-twitter" style="color: #55acee;"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-google-plus-g" style="color: #dd4b39;"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-dribbble" style="color: #ea4c89;"></i>
+                        </li>
+                    </ul>
+                    <p>@2018 Designed by
+                        <a href="#">Anjan Ray</a> |all rights reserved</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                        <img src="images/project1.png" alt="" class="popup__img">
+                </div>
+                <div class="popup__right text-center">
+                    <h2 class="heading-secendary">Bye Ui lib kit pro</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <ul>
+                        <li>10 unique homepages</li>
+                        <li>essaintial blog page</li>
+                        <li>exicutive team page</li>
+                        <li>pricing & nice features page</li>
+                        <li>fully responsive</li>
+                        <li>all browser support</li>
+                        <li>clean and valid code</li>
+                        <li>well documented</li>
+                        <li>dedicated support</li>
+                    </ul>
+                  
+                    <a href="#" class="btn btn-blue">Add to cart</a>
+                </div> 
+            </div>
+            <a href="#project" class="popup__close">close</a>
         </div>
-    </section>
 
     <!-- script link -->
 
@@ -501,7 +751,25 @@
     <script src="js/vendor/jquery.singlePageNav.min.js"></script>
     <script src="js/custom.js"></script>
 
-    <script src="jquery.singlePageNav.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script src="js/wavify.js"></script>
+    <script src="js/jquery.wavify.js"></script>
+
+    <script>
+$('#demo').wavify({
+ 
+  // Height of wave
+  height: 100,
+  // Amplitude of wave
+  amplitude: 80,
+  // Animation speed
+  speed: .15,
+  // Total number of articulation in wave
+  bones: 3,
+  // Color
+  color: 'rgba(114, 114, 140, 0.20)'
+});
+    </script>
 </body>
 
 </html>

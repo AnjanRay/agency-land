@@ -1,189 +1,32 @@
+@import "abstracts/function";
+@import "abstracts/mixing";
+@import "abstracts/variable";
 
-.homepage{
-    background: url(../../images/Header.png);
-    padding-bottom: 11.1rem;
-}
+@import "base/animation";
+@import "base/base";
+@import "base/typography";
 
-.navbar-collapse{
-    padding-left: 10rem;
-    ul{
-       
-        li{
-            padding-left: 2rem;
-        }
-    }
-}
+@import "component/button";
+@import "component/card";
 
-// service
+@import "layout/home";
+@import "layout/navigation";
+@import "layout/about";
+@import "layout/features";
+@import "layout/project";
+@import "layout/team";
+@import "layout/blog";
+@import "layout/pricing";
+@import "layout/testimonial";
+@import "layout/footer";
 
-.service-title{
-    h2{
-
-    }
-    p{
-        max-width: 40rem;
-        margin: auto;
-    }
-}
-.service-icon{
-    i{
-        font-size: 4rem;
-    }
-}
-
-.service-detail{
-    h6{
-
-    }
-    p{
-       
-    }
-}
-
-// about
-
-.about{
-    background: #333366;
-}
-
-.about-photo{
-    img{
-       
-    }
-}
+@import "layout/popup";
 
 
 
-// work
-
-.work-title{
-
-    p{
-        max-width: 40rem;
-        margin: auto;
-    }
-}
-.work-image{
-    img{
-        
-    }
-}
-
-// testimonial
-.clients{
-    background: transparent;
-}
-
-.testimonial{
-    p{
-        max-width: 40rem;
-        margin: auto;
-    }
-} 
-.carousel-indicators{
-    li{
-      background-color:  rgba(52, 42, 42, 0.5);
-    }
-}
-.carousel-indicators .active{
-    background-color: #610aad;
-}
-.client-photo{
-   
-    img{
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-      
-    }
-}
-
-// blogpost
 
 
-.blog-title{
-    p{
-        max-width: 40rem;
-        margin: auto;
-    }
-}
 
 
-// pricing
-.pricing-title{
-    p{
-        max-width: 40rem;
-        margin: auto;
-    }
-}
-
-.pricing-card{
-
-    ul{
-        list-style: none;
-        padding: 1.5rem;
-       
-        li{
-         i{
-            font-size: 1.2rem;
-         }
-        }
-    }
-    button{
-        margin-left: 5rem;
-    }
-}
-// contact
-.contact{
-    background: url(../../images/Footer_Section.png)
-}
-
-.contact-title{
-    p{
-        max-width: 40rem;
-        margin: auto;
-    }
-}
-
-.contact-input{
-    input{
-        width: 100%;
-        padding: 8px;
-        text-transform: capitalize;
-        background: #99919152;
-        border: none;
-        outline: none;
-       &::placeholder{
-            color: white;
-        }
-    }
-}
-
-.message{
-    textarea{
-        width: 100%;
-        padding: 8px;
-        text-transform: capitalize;
-        background: #99919152;
-        border: none;
-        outline: none;
-        color: white;
-        &::placeholder{
-            color: white;
-        }
-    }
-    button{
-        margin-left: 30rem;
-    }
-}
-
-.footer{
-    background: #333366;
-}
 
 
-@media(max-width:655px){
-    img{
- 
-    }
-}

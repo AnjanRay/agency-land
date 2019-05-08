@@ -1,0 +1,43 @@
+@keyframes moveInLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px) 
+    }
+
+    70%{
+        transform: translate(15px)
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0)
+    }
+  }
+  @keyframes moveInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px) 
+    }
+
+    70%{
+        transform: translate(15px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0)
+    }
+  }
+
+  // wave animation
+
+  .wave {
+    position: absolute;
+    left:0;
+    right:0;
+    top:460px;
+    bottom:0;
+    z-index: 1;
+  }
+  
+  .wave + .wave {
+    z-index: 5;
+  }
