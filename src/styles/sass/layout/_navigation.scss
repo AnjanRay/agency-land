@@ -38,6 +38,19 @@
         transform: translate(-50%, -50%);
         list-style: none;
         text-align: center;
+        @include responsive(tab-port) {
+            position: unset;
+            top: unset;
+            left: unset;
+            transform:none;
+
+          }
+          @include responsive(phone) {
+            position: unset;
+            top: unset;
+            left: unset;
+            transform:none;
+          }
     }
     &__item{
         
@@ -58,5 +71,25 @@
         &:active{
             background-position: 100%;
         }
+    }
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #ffffffb0;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+
+.btn-hire-us{
+    @include responsive(tab-port) {
+      display: none;
+    }
+    @include responsive(phone) {
+        display: none;
     }
 }
